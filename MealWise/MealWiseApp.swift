@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct MealWiseApp: App {
+    
+    @StateObject var launchScreenState = LaunchScreenStateManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                HomeView()
+                if launchScreenState.state != .finished {
+                    LaunchScreenView()
+                }
+            }
+            .environmentObject(launchScreenState)
         }
     }
 }
