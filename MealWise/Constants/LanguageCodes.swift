@@ -8,7 +8,7 @@
 import Foundation
 
 enum LanguageCodes: String {
-    case english = "en"
-    case turkish = "tr"
-    case deutsch = "de"
+    case english = "EN"
+    case turkish = "TR"
+    case deutsch = "DE"
 }
