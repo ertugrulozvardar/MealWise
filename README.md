@@ -22,3 +22,6 @@ MealWise is an iOS application where you can list and search through many food r
 - [x] [URLImage](https://github.com/dmytro-anokhin/url-image)
 
 ## Demo of the application:
+
+https://user-images.githubusercontent.com/44060683/232821458-098f9f0d-fafd-45be-b9c7-187b36b68642.mp4
+
